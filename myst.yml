@@ -1,4 +1,3 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
@@ -93,6 +92,44 @@ project:
           title: Overfitting y Regularización
         - file: content/05_deep_neural_networks/02_DNN_exercise.ipynb
           title: Ejercicio DNN
+    
+    # 6. Convolutional Neural Networks
+    - file: content/06_convolutional_neural_networks/index.md
+      title: 6 Convolutional Neural Networks
+      children:
+        - file: content/06_convolutional_neural_networks/01_images_as_data.ipynb
+          title: Imágenes como Datos
+
+        - file: content/06_convolutional_neural_networks/02_convolutions.ipynb
+          title: Convoluciones
+
+        - file: content/06_convolutional_neural_networks/03_cnn_architecture.ipynb
+          title: Arquitectura de una CNN
+
+        - file: content/06_convolutional_neural_networks/04_training_cnn.ipynb
+          title: Entrenando una CNN
+
+        - file: content/06_convolutional_neural_networks/05_cnn_exercise.ipynb
+          title: Ejercicio CNN
+
+
+    # 7. Projects
+    - file: content/07_projects/index.md
+      title: 7 Proyectos
+      children:
+        - file: content/07_projects/project_1.ipynb
+          title: Proyecto 1
+
+        - file: content/07_projects/project_2.ipynb
+          title: Proyecto 2
+
+        - file: content/07_projects/project_3.ipynb
+          title: Proyecto 3
+
+
+    # Resources
+    - file: content/resources.md
+      title: Recursos
 
   abbreviations:
     JB2: Jupyter Book 2
