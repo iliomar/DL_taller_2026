@@ -2,9 +2,9 @@
 version: 1
 project:
   id: 7204695b-7485-4989-863c-16cf6e4db155
-  title: Taller de Introducción a Machine Learning
+  title: Taller de Introducción a Deep Learning
   description: This description goes in the preface of the pdf output. 
-  keywords: [Machine Learning, Python, Análisis de Datos, Entrenamiento]
+  keywords: [Deep Learning, Python, Análisis de Datos, Entrenamiento]
   authors:
     - name: Iliomar Rodriguez Ramos
     - name: Juvenal Bassa
@@ -35,65 +35,64 @@ project:
       repo: https://github.com/executablebooks/thebe-binder-base
 
   toc:
-    # Landing page
     - file: index.md
+      title: Bienvenidos
 
-    # 1. Foundations
     - file: content/01_foundations/index.md
+      title: 1 Fundamentos
       children:
         - file: content/01_foundations/01_intro_deep_learning.ipynb
+          title: Introducción a Deep Learning
         - file: content/01_foundations/02_exercise.ipynb
+          title: Ejercicio
 
-    # 2. Neural Networks
     - file: content/02_neural_networks/index.md
+      title: 2 Redes Neuronales
       children:
         - file: content/02_neural_networks/01_artificial_neuron.ipynb
+          title: Neurona Artificial
         - file: content/02_neural_networks/02_activation_functions.ipynb
+          title: Funciones de Activación
         - file: content/02_neural_networks/03_network_architecture.ipynb
+          title: Arquitectura
         - file: content/02_neural_networks/04_neural_networks_exercise.ipynb
+          title: Ejercicio
 
-    # 3. Training Neural Networks
     - file: content/03_training/index.md
+      title: 3 Entrenamiento
       children:
         - file: content/03_training/01_forward_pass.ipynb
+          title: Forward Pass
         - file: content/03_training/02_loss_functions.ipynb
+          title: Loss Functions
         - file: content/03_training/03_gradient_descent.ipynb
+          title: Gradient Descent
         - file: content/03_training/04_backpropagation.ipynb
+          title: Backpropagation
         - file: content/03_training/05_training_exercise.ipynb
+          title: Ejercicio
 
-    # 4. First Neural Network
     - file: content/04_first_network/index.md
+      title: 4 Primera Red Neuronal
       children:
         - file: content/04_first_network/01_first_neural_network.ipynb
+          title: Primera Red
         - file: content/04_first_network/02_training_loop.ipynb
+          title: Training Loop
         - file: content/04_first_network/03_model_evaluation.ipynb
+          title: Evaluación
         - file: content/04_first_network/04_first_nn_exercise.ipynb
+          title: Ejercicio
 
-    # 5. Deep Neural Networks
     - file: content/05_deep_neural_networks/index.md
+      title: 5 Deep Neural Networks
       children:
         - file: content/05_deep_neural_networks/01_deep_neural_networks.ipynb
+          title: Deep Neural Networks
         - file: content/05_deep_neural_networks/02_overfitting_and_regularization.ipynb
+          title: Overfitting y Regularización
         - file: content/05_deep_neural_networks/02_DNN_exercise.ipynb
-
-    # 6. Convolutional Neural Networks
-    - file: content/06_convolutional_neural_networks/index.md
-      children:
-        - file: content/06_convolutional_neural_networks/01_images_as_data.ipynb
-        - file: content/06_convolutional_neural_networks/02_convolutions.ipynb
-        - file: content/06_convolutional_neural_networks/03_cnn_architecture.ipynb
-        - file: content/06_convolutional_neural_networks/04_training_cnn.ipynb
-        - file: content/06_convolutional_neural_networks/04_cnn_exericse.ipynb
-
-    # 7. Projects
-    - file: content/07_projects/index.md
-      children:
-        - file: content/07_projects/project_1.ipynb
-        - file: content/07_projects/project_2.ipynb
-        - file: content/07_projects/project_3.ipynb
-
-    # Resources
-    - file: content/resources.md
+          title: Ejercicio DNN
 
   abbreviations:
     JB2: Jupyter Book 2
