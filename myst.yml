@@ -83,33 +83,33 @@ project:
         - file: content/04_first_network/04_first_nn_exercise.ipynb
           title: Ejercicio
 
-    - file: content/05_deep_neural_networks/index.md
+    - file: content/05_dnn/index.md
       title: 5 Deep Neural Networks
       children:
-        - file: content/05_deep_neural_networks/01_deep_neural_networks.ipynb
+        - file: content/05_dnn/01_deep_neural_networks.ipynb
           title: Deep Neural Networks
-        - file: content/05_deep_neural_networks/02_overfitting_and_regularization.ipynb
+        - file: content/05_dnn/02_overfitting_and_regularization.ipynb
           title: Overfitting y Regularización
-        - file: content/05_deep_neural_networks/02_DNN_exercise.ipynb
+        - file: content/05_dnn/02_DNN_exercise.ipynb
           title: Ejercicio DNN
     
     # 6. Convolutional Neural Networks
-    - file: content/06_convolutional_neural_networks/index.md
+    - file: content/06_cnn/index.md
       title: 6 Convolutional Neural Networks
       children:
-        - file: content/06_convolutional_neural_networks/01_images_as_data.ipynb
+        - file: content/06_cnn/01_images_as_data.ipynb
           title: Imágenes como Datos
 
-        - file: content/06_convolutional_neural_networks/02_convolutions.ipynb
+        - file: content/06_cnn/02_convolutions.ipynb
           title: Convoluciones
 
-        - file: content/06_convolutional_neural_networks/03_cnn_architecture.ipynb
+        - file: content/06_cnn/03_cnn_architecture.ipynb
           title: Arquitectura de una CNN
 
-        - file: content/06_convolutional_neural_networks/04_training_cnn.ipynb
+        - file: content/06_cnn/04_training_cnn.ipynb
           title: Entrenando una CNN
 
-        - file: content/06_convolutional_neural_networks/05_cnn_exercise.ipynb
+        - file: content/06_cnn/05_cnn_exercise.ipynb
           title: Ejercicio CNN
 
 
