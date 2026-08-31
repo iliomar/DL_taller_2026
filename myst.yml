@@ -41,9 +41,8 @@ project:
     # 1. Foundations
     - file: content/01_foundations/index.md
       children:
-        - file: content/01_foundations/01_intro_deep_learning.md
-        - file: content/01_foundations/02_features_and_labels.md
-        - file: content/01_foundations/03_features_exercise.ipynb
+        - file: content/01_foundations/01_intro_deep_learning.ipynb
+        - file: content/01_foundations/02_exercise.ipynb
 
     # 2. Neural Networks
     - file: content/02_neural_networks/index.md
