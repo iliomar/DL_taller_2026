@@ -115,7 +115,7 @@ project:
 
     # 7. Projects
     - file: content/07_projects/index.md
-      title: 7 Proyectos
+      title: Proyectos
       children:
         - file: content/07_projects/project_1.ipynb
           title: Proyecto 1
