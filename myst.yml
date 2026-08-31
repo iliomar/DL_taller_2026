@@ -55,6 +55,67 @@ project:
         - file: content/projects/modulo_5_2_proyecto_guiado_cifar10.ipynb
         - file: content/projects/proyecto_2_wine_quality_logistic_regression.ipynb
     - file: content/resources.md 
+
+
+
+
+
+  toc:
+    # Landing page
+    - file: index.md
+
+    # 1. Foundations
+    - file: content/01_foundations/index.md
+      children:
+        - file: content/01_foundations/01_intro_deep_learning.md
+        - file: content/01_foundations/02_features_and_labels.ipynb
+
+    # 2. Neural Networks
+    - file: content/02_neural_networks/index.md
+      children:
+        - file: content/02_neural_networks/01_artificial_neuron.ipynb
+        - file: content/02_neural_networks/02_activation_functions.ipynb
+        - file: content/02_neural_networks/03_network_architecture.ipynb
+
+    # 3. Training Neural Networks
+    - file: content/03_training/index.md
+      children:
+        - file: content/03_training/01_forward_pass.ipynb
+        - file: content/03_training/02_loss_functions.ipynb
+        - file: content/03_training/03_gradient_descent.ipynb
+        - file: content/03_training/04_backpropagation.ipynb
+
+    # 4. First Neural Network
+    - file: content/04_first_network/index.md
+      children:
+        - file: content/04_first_network/01_first_neural_network.ipynb
+        - file: content/04_first_network/02_training_loop.ipynb
+        - file: content/04_first_network/03_model_evaluation.ipynb
+
+    # 5. Deep Neural Networks
+    - file: content/05_deep_neural_networks/index.md
+      children:
+        - file: content/05_deep_neural_networks/01_deep_neural_networks.ipynb
+        - file: content/05_deep_neural_networks/02_overfitting_and_regularization.ipynb
+
+    # 6. Convolutional Neural Networks
+    - file: content/06_convolutional_neural_networks/index.md
+      children:
+        - file: content/06_convolutional_neural_networks/01_images_as_data.ipynb
+        - file: content/06_convolutional_neural_networks/02_convolutions.ipynb
+        - file: content/06_convolutional_neural_networks/03_cnn_architecture.ipynb
+        - file: content/06_convolutional_neural_networks/04_training_cnn.ipynb
+
+    # 7. Projects
+    - file: content/07_projects/index.md
+      children:
+        - file: content/07_projects/project_1_iris_neural_network.ipynb
+        - file: content/07_projects/project_2_fashion_mnist.ipynb
+        - file: content/07_projects/project_3_cifar10_cnn.ipynb
+
+    # Resources
+    - file: content/resources.md
+
   abbreviations:
     JB2: Jupyter Book 2
     CI/CD: Continuous Integration/Continuous Deployment
