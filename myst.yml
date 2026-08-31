@@ -35,32 +35,6 @@ project:
       repo: https://github.com/executablebooks/thebe-binder-base
 
   toc:
-    - file: index.md                      # the landing page
-    - file: content/1_intro.md
-    - file: content/python_review/intro.md          # dropdown menu
-      children:
-        - file: content/python_review/variables.md
-        - file: content/python_review/2_listdict.md
-        - file: content/python_review/0_libraries.md
-        - file: content/python_review/1_modules.md
-        - file: content/python_review/visualization.md
-        - file: content/python_review/1_loading_data.ipynb
-    - file: content/intro_ML/module_1.ipynb       # dropdown menu
-    - file: content/data_preprocessing/module_2.ipynb          # dropdown menu
-    - file: content/models/module_3.ipynb
-    - file: content/models/module_4_clasificacion_ml_profesores.ipynb
-    - file: content/projects/index.md
-      children:
-        - file: content/projects/modulo_5_proyecto_guiado_datos_reales_iris.ipynb
-        - file: content/projects/modulo_5_2_proyecto_guiado_cifar10.ipynb
-        - file: content/projects/proyecto_2_wine_quality_logistic_regression.ipynb
-    - file: content/resources.md 
-
-
-
-
-
-  toc:
     # Landing page
     - file: index.md
 
