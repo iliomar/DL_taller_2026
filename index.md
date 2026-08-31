@@ -8,7 +8,7 @@ site:
 
 <div style="text-align: center">
 
-# Bienvenidos al taller de Machine Learning!
+# Bienvenidos a la segunda parte del taller de Machine Learning!
 
 </div>
 
